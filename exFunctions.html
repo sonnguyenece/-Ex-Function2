@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h4>Bài 1: Viết hàm tính bình phương của một số bất kỳ được đưa vào.
+    Gọi hàm vừa xây dựng được.</h4>
+<input type="button" value="Click to see the result!!"
+       onclick="document.getElementById('resultEx1').innerHTML=square(prompt('Input a number : '))">
+<p id="resultEx1"></p>
+
+<h4>Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được</h4>
+<input type="button" value="Click to see the result!!" onclick="functionEx2()">
+<p id="perimeter"></p>
+<p id="area"></p>
+
+<h4>Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.</h4>
+<input type="button" value="Click to see the result!!"
+       onclick="document.getElementById('factorial').innerHTML=factorial(parseFloat(prompt('Nhap vao mot so nguyen duong ')))">
+<p id="factorial"></p>
+
+<h4>Bài 4: Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+    Nếu là ký tự số hàm trả về true, ngược lại trả về false.</h4>
+<input type="button" value="Click to see the result!!" onclick
+        ="document.getElementById('resultTestDigit').innerHTML=testDigit(prompt('Nhap vao mot so '))">
+<p id="resultTestDigit"></p>
+
+<h4>Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.</h4>
+<input type="button" value="Click to see the result!!" onclick="ex5()">
+<p id="resultEx5"></p>
+
+<h4>Bài 6: Viết hàm nhận vào một số, kiểm tra xem nếu số đưa vào có phải là nguyên dương không.
+    Nếu là nguyên dương trả về true, ngược lại trả về false..</h4>
+<input type="button" value="Click to see the result!!" onclick="ex6()">
+<p id="resultEx6"></p>
+
+<h4>Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.</h4>
+<input type="button" value="Click to see the result!!" onclick="ex7()">
+<p id="Ex7"></p>
+<p id="resultEx7"></p>
+
+<h4>Bài 8: Viết hàm truyền vào mảng số nguyên bất kỳ, sau đó đảo ngược mảng số nguyên đó.</h4>
+<input type="button" value="Click to see the result!!" onclick="ex8()">
+<p id="Ex8"></p>
+<p id="resultEx8"></p>
+
+<h4>Bài 9: Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ, kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.
+    Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1. </h4>
+<input type="button" value="Click to see the result!!" onclick="ex9()">
+<p id="Ex9"></p>
+<p id="resultEx9"></p>
+
+<script src="function.js"></script>
+</body>
+</html>
